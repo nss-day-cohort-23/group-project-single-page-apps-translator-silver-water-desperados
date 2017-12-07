@@ -1,22 +1,114 @@
 body {
     font-family: 'Mountains of Christmas', cursive;
+    margin: -1em;
 }
 
 h1 {
     text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    // margin-bottom: -0.0em
 }
 
 .banner img {
     height: 25em;
     width: 95%;
+    max-width: 850px;
     display: block;
     margin: auto;
+    margin-bottom: 2em;
 }
 
 .radios {
     display: flex;
+    justify-content: center;
 }
 
 .radios input {
-    margin-right: 5em;
+    margin-right: 2em;
 }
+
+.radios span {
+    font-size: 1.25em;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: -.30em;
+}
+// .form {
+//     width: 95%;
+//     display: block;
+//     justify-content: center;
+//     background-color: red;
+// }
+
+// .header {
+//     display: float;
+// }
+
+.header img {
+    height: .75em;
+}
+
+.inputField {
+    display: block;
+    margin: auto;
+    height: 2.5em;
+    width: 40em;
+    border: 1px solid darkgreen;
+}
+
+.language {
+    text-align: center;
+    margin-left: -.75em;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.tanBtn {
+    display: block;
+    justify-content: center;
+    margin: auto;
+    font-weight: bold;
+    font-size: 5em;
+    font-family : inherit;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmMnugfZSMXRNq9DUQ37PGgcfTrnVUFmwOyDEiiIto59SOzlpN");
+    color: white;
+    margin-top: .5em;
+    width: 4em;
+}
+
+.flashing {
+    animation-duration: 400ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes blink {
+    from {
+       color: green;
+    }
+    to {
+       color: red;
+    }
+  } 
+
+  .santa{
+    cursor: url(rsz_1santa.png), auto;	
+  }
+
+  .footer {
+      text-align: center;
+      background-color: lightgrey;
+  }
+
+  .userOutput {
+      font-size: 5em;
+      text-align: center;
+      margin-top: .5em;
+      height: 2em;
+  }
+
