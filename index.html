@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="santa">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,25 +9,32 @@
   <link rel="stylesheet" href="stylesheets/main.css">
 </head>
 <body>
-  <h1>Christmas Cheer Translator</h1>
+  <div class="header">
+    <h1 class="flashing"><img src="http://cdn.redriderleglamps.com/media/catalog/product/cache/1/small_image/214x200/9df78eab33525d08d6e5fb8d27136e95/c/h/christmas-story-50-inch-leg-lamp-leg-only-300-web.jpg">Christmas Cheer Translator</h1>
+  </div>
   <div class="banner">
     <img src="https://wallpaper.wiki/wp-content/uploads/2017/03/PIC-WPA0018489.jpg" alt="Ralphie">
   </div>
   <div class="form">
-    Christmas Cheer Goes Here:<br>
-      <input type="text" name="Words to Translate:" id="input"><br>
-    Language:<br>
+    <h2>Christmas Cheer Goes Here:</h2>
+      <input type="text" name="Words to Translate:" id="input" class="inputField"><br>
+      <div class="language">Choose A Language:</div>
       <div class="radios">
-        <span class="btnTitle">Spanish</span><input type="radio" name="language" value="spanish" class="radioBtn" id="spanishBtn">
-        <span>French</span><input type="radio" name="language" value="french" class="radioBtn" id="frenchBtn">
-        <span>German</span><input type="radio" name="language" value="german" class="radioBtn" id="germanBtn">
+        <span class="btnTitle">Spanish<input type="radio" name="language" value="spanish" class="radioBtn" id="spanishBtn"></span>
+        <span>French<input type="radio" name="language" value="french" class="radioBtn" id="frenchBtn"></span>
+        <span>German<input type="radio" name="language" value="german" class="radioBtn" id="germanBtn"></span>
       </div>
-      <button type="submit" id="translate">Translate</button>
+      <button type="submit" id="translate" class="tanBtn">Translate</button>
   </div>
 
-  <div id="output">
+  <div id="output" class="userOutput">
 
   </div>
+  <footer>
+    <div class="footer">
+        &copy; 2017 Christmas Cheer
+    </div>
+  </footer>
 
 <script src="dist/bundle.js"></script>
 
