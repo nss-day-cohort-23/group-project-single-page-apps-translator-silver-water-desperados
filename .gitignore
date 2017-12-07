@@ -1,5 +1,5 @@
 node_modules
-sass-cache
+.sass-cache
 .DS_Store
 stylesheets
 bundle.js
