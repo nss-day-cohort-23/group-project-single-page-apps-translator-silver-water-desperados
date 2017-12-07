@@ -1,0 +1,22 @@
+body {
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+h1 {
+    text-align: center;
+}
+
+.banner img {
+    height: 25em;
+    width: 95%;
+    display: block;
+    margin: auto;
+}
+
+.radios {
+    display: flex;
+}
+
+.radios input {
+    margin-right: 5em;
+}
