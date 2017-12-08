@@ -79,6 +79,12 @@ h2 {
     color: white;
     margin-top: .5em;
     width: 4em;
+    opacity: .75;
+    border: 6px solid lightblue;
+}
+
+.tanBtn:hover {
+    opacity: 1;
 }
 
 .flashing {
